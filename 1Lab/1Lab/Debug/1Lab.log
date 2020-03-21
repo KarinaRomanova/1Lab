@@ -1,0 +1,6 @@
+﻿  1Lab.cpp
+  DT.cpp
+  Date.cpp
+  Создание кода...
+D:\Pro\1Lab\1Lab\DT.cpp(16,25): warning C4018: <: несоответствие типов со знаком и без знака
+  1Lab.vcxproj -> D:\Pro\1Lab\Debug\1Lab.exe
