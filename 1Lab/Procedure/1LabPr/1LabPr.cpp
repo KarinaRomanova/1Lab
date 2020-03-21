@@ -18,7 +18,6 @@ void DayWeek(int dayResult)
 	string dayString;
 	switch (dayResult) {
 	case 0:
-<<<<<<< HEAD:Procedure/1LabPr/1LabPr.cpp
 		dayString = "Sunday";
 		cout << dayString << endl;
 		break;
@@ -46,35 +45,7 @@ void DayWeek(int dayResult)
 		dayString = "Saturday";
 		cout << dayString << endl;
 		break;
-=======
-		dayString = "Воскресенье";
-		cout << dayString << endl;
-		break;
-	case 1:
-		dayString = "Понедельник";
-		cout << dayString << endl;
-		break;
-	case 2:
-		dayString = "Вторник";
-		cout << dayString << endl;
-		break;
-	case 3:
-		dayString = "Среда";
-		cout << dayString << endl;
-		break;
-	case 4:
-		dayString = "Четверг";
-		cout << dayString << endl;
-		break;
-	case 5:
-		dayString = "Пятница";
-		cout << dayString << endl;
-		break;
-	case 6:
-		dayString = "Суббота";
-		cout << dayString << endl;
-	
->>>>>>> 45e754dbaa82570ca07a5a96f5af479dd63def3f:procedure/1LabPr.cpp
+
 	default:
 		cout << "Error";
 		break;
