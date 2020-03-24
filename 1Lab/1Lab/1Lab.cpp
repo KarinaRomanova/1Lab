@@ -9,15 +9,15 @@ int main()
 	int day;
 	int month;
 	int year;
-	cout << "Ââåäèòå äàòó\n";
-	cout << "Ãîä\n";  cin >> year;
-	cout << "Ìåñÿö\n";  cin >> month;
-	cout << "Äåíü\n";  cin >> day;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð°Ñ‚Ñƒ\n";
+	cout << "Ð“Ð¾Ð´\n";  cin >> year;
+	cout << "ÐœÐµÑÑÑ†\n";  cin >> month;
+	cout << "Ð”ÐµÐ½ÑŒ\n";  cin >> day;
 
 	DateTime dt;
 	bool isDateCorrect = dt.checkDate(year, month, day);
 		if (!isDateCorrect) {
-		cout << "Äàòà íå âåðíà!" << endl;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ñ€Ñ€ÐµÐºÑ‚Ð½ÑƒÑŽ Ð´Ð°Ñ‚Ñƒ!" << endl;
 		exit(1);
 		}
 
