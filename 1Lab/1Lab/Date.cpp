@@ -1,11 +1,8 @@
 #include "Date.h"
 
 	Date::Date(int date_day, int date_month, int date_year) 
+		:day(date_day), month(date_month),year(date_year)
 	{
-		day = date_day;
-		month = date_month;
-		year = date_year;
-		
 		int a;
 		int yearcalc;
 		int monthcalc;
